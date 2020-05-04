@@ -1,6 +1,6 @@
 .socialMediaLink {
     display: flex;
-    margin: auto 20px;
+    margin: 10px 10px;
     height: 50px;
     justify-content: center;
     align-items: center;
@@ -8,30 +8,27 @@
     text-decoration: none;
     font-size: 20px;
     
-    border: solid 2px black;
-
     -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
     -webkit-transition-property: transform;
     transition-property: transform;
+
+    color: white;
 }
 
 .socialMediaLink:hover, .socialMediaLink:focus, .socialMediaLink:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
 }
 
 .githubLink {
-    color: #333;
-    border-color: #333
+    background-color: #333;
 }
 
 .twitterLink {
-    color: #1DA1F2;
-    border-color: #1DA1F2;
+    background-color: #1DA1F2;
 }
 
 .itchioLink {
-    color: #fa5c5c;
-    border-color: #fa5c5c;
+    background-color: #fa5c5c;
 }

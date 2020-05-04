@@ -10,6 +10,8 @@
     transition-duration: 0.1s;
     -webkit-transition-property: transform;
     transition-property: transform;
+
+    box-shadow: 3px 3px rgba(121, 121, 121, 0.603);
 }
 
 .navbarLink:hover {
