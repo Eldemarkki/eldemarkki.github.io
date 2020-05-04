@@ -7,7 +7,7 @@ import SocialMedia from 'components/SocialMedia/SocialMedia.jsx';
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Menu />
       <Projects />
       <About />

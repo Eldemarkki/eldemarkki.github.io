@@ -10,3 +10,9 @@
     top: 10px;
     height: 30px;
 }
+
+@media screen and (max-width:450px){
+    #navbar {
+        flex-direction: column;
+    }
+} 
